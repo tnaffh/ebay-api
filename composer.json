@@ -1,0 +1,12 @@
+{
+    "name": "tnaffh/ebay-api",
+    "description": "A laravel package for eBay developer API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naftal Timotheus",
+            "email": "naftal@efinity.com.na"
+        }
+    ],
+    "require": {}
+}
