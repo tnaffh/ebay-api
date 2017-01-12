@@ -8,5 +8,12 @@
             "email": "tnaffh@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Tnaffh\\eBayAPI\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
 }
