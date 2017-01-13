@@ -14,9 +14,9 @@ class EbayAPIProvider extends ServiceProvider
      */
     public function boot()
     {
-        /*$this->publishes([
-            __DIR__.'/path/to/config/.php' => config_path('courier.php'),
-        ]);*/
+        $this->publishes([
+            __DIR__.'/config/ebay.php' => config_path('ebay.php'),
+        ]);
     }
 
     /**
