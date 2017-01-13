@@ -1,11 +1,15 @@
 {
     "name": "tnaffh/ebay-api",
+    "type": "library",
+    "minimum-stability": "dev",
     "description": "A laravel package for eBay developer API",
+    "homepage": "https://code.helix.com.na/ebay-api",
     "license": "MIT",
     "authors": [
         {
             "name": "Naftal Timotheus",
-            "email": "tnaffh@gmail.com"
+            "email": "tnaffh@gmail.com",
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -14,6 +18,7 @@
         }
     },
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": "~5",
+        "guzzlehttp/guzzle": "~6.0"
     }
 }
