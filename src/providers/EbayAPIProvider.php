@@ -15,7 +15,7 @@ class EbayAPIProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/ebay.php' => config_path('ebay.php'),
+            __DIR__.'/../config/ebay.php' => config_path('ebay.php'),
         ]);
     }
 
