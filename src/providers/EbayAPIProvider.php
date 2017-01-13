@@ -1,6 +1,6 @@
 <?php
 
-namespace Tnaffh\eBayAPI;
+namespace Tnaffh\eBayAPI\Providers;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
